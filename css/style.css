@@ -4,17 +4,16 @@ html {
 }
 
 body {
-  background-color: #A69C94;
+  background-color: #f2e9e4;
 }
 
-p,li {
+li {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 10;
   font-style: normal;
 }
 
-h1,h2 {
+h1,h2,h3,h4,h5,h6 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 10;
@@ -24,4 +23,21 @@ h1,h2 {
 img {
   border-radius: 8px;
   margin: 10px;
+}
+
+.list {
+  border-color: black;
+  border-style: solid;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.col-sm-2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #f2e9e4;
+  background-color: #403939;
 }
