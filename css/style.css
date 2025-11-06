@@ -32,7 +32,7 @@ h6 {
   height: auto;
   max-height: 500px;
   object-fit: cover;
-  margin: 0 auto;
+  margin: auto;
   display: block;
 }
 
@@ -55,7 +55,7 @@ img {
 
 /* Carousel image sizing */
 #carouselExampleAutoplaying {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 
