@@ -38,7 +38,19 @@ h6 {
 
 img {
   border-radius: 8px;
-  margin: 10px;
+  margin: 10px auto;
+  /* center images horizontally by default */
+  display: block;
+  max-width: calc(100% - 20px);
+}
+
+/* Smaller centered images for narrow side columns */
+.col-sm-3 img.img-fluid {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  margin: 10px auto;
+  display: block;
 }
 
 /* Carousel image sizing */
