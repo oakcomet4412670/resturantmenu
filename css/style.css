@@ -5,6 +5,7 @@ html {
 
 body {
   background-color: #f2e9e4;
+  padding-bottom: 80px;
 }
 
 li {
@@ -18,6 +19,16 @@ h1,h2,h3,h4,h5,h6 {
   font-optical-sizing: auto;
   font-weight: 10;
   font-style: normal;
+}
+
+/* Add responsive image styling */
+.col-sm-6 img.img-fluid {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
 }
 
 img {
